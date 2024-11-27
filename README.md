@@ -20,9 +20,14 @@ Watch the video demo of the app in action:
 Photo Upload: Users can take a new photo or select an existing photo from their device. The photo is then uploaded to Firebase Storage.
 Display Uploaded Photos: The app fetches and displays the uploaded images from Firebase Firestore, showing the list of photo URLs.
 
-Tools & Technologies
+## Tools & Technologies
+
 SwiftUI: For building the user interface.
+
 Firebase: Used for storing images in Firebase Firestore and Firebase Storage.
+
 Firebase Firestore: For storing metadata about the uploaded photos.
+
 Firebase Storage: For storing the actual images.
+
 MVVM Design Pattern: To maintain a clean code structure.
