@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7DC9A722CF6304A00F701DD /* DigmiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9A712CF6304A00F701DD /* DigmiApp.swift */; };
+		A7DC9A742CF6304A00F701DD /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9A732CF6304A00F701DD /* ImagePickerView.swift */; };
+		A7DC9A762CF6304B00F701DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DC9A752CF6304B00F701DD /* Assets.xcassets */; };
+		A7DC9A792CF6304B00F701DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DC9A782CF6304B00F701DD /* Preview Assets.xcassets */; };
+		A7DC9A832CF6304B00F701DD /* DigmiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9A822CF6304B00F701DD /* DigmiTests.swift */; };
+		A7DC9A8D2CF6304B00F701DD /* DigmiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9A8C2CF6304B00F701DD /* DigmiUITests.swift */; };
+		A7DC9A8F2CF6304B00F701DD /* DigmiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9A8E2CF6304B00F701DD /* DigmiUITestsLaunchTests.swift */; };
+		A7DC9A9E2CF642F800F701DD /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A7DC9A9D2CF642F800F701DD /* FirebaseCore */; };
+		A7DC9AA02CF6431F00F701DD /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9A9F2CF6431F00F701DD /* PhotoViewModel.swift */; };
+		A7DC9AA22CF6434E00F701DD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A7DC9AA12CF6434E00F701DD /* FirebaseFirestore */; };
+		A7DC9AA42CF6435200F701DD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A7DC9AA32CF6435200F701DD /* FirebaseStorage */; };
+		A7DC9AA62CF6453F00F701DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7DC9AA52CF6453F00F701DD /* GoogleService-Info.plist */; };
+		A7DC9AA82CF6469400F701DD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A7DC9AA72CF6469400F701DD /* FirebaseDatabase */; };
+		A7DC9AAB2CF647A200F701DD /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9AAA2CF647A200F701DD /* TabBarView.swift */; };
+		A7DC9AAD2CF647B100F701DD /* ViewPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9AAC2CF647B100F701DD /* ViewPhotosView.swift */; };
+		A7DC9AB02CF6488100F701DD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A7DC9AAF2CF6488100F701DD /* SDWebImageSwiftUI */; };
+		A7DC9AB42CF6498100F701DD /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9AB32CF6498100F701DD /* AddPhotoView.swift */; };
+		A7DC9ABC2CF64ECB00F701DD /* ViewPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9ABB2CF64ECB00F701DD /* ViewPhotosViewModel.swift */; };
+		A7DC9ABE2CF64EE800F701DD /* FullImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9ABD2CF64EE800F701DD /* FullImageView.swift */; };
+		A7DC9AC12CF64F8300F701DD /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC9AC02CF64F8300F701DD /* ImageItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7DC9A7F2CF6304B00F701DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DC9A662CF6304A00F701DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DC9A6D2CF6304A00F701DD;
+			remoteInfo = Digmi;
+		};
+		A7DC9A892CF6304B00F701DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DC9A662CF6304A00F701DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DC9A6D2CF6304A00F701DD;
+			remoteInfo = Digmi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7DC9A6E2CF6304A00F701DD /* Digmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Digmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DC9A712CF6304A00F701DD /* DigmiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigmiApp.swift; sourceTree = "<group>"; };
+		A7DC9A732CF6304A00F701DD /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		A7DC9A752CF6304B00F701DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7DC9A782CF6304B00F701DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7DC9A7E2CF6304B00F701DD /* DigmiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigmiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DC9A822CF6304B00F701DD /* DigmiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigmiTests.swift; sourceTree = "<group>"; };
+		A7DC9A882CF6304B00F701DD /* DigmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DC9A8C2CF6304B00F701DD /* DigmiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigmiUITests.swift; sourceTree = "<group>"; };
+		A7DC9A8E2CF6304B00F701DD /* DigmiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigmiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7DC9A9F2CF6431F00F701DD /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		A7DC9AA52CF6453F00F701DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7DC9AAA2CF647A200F701DD /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A7DC9AAC2CF647B100F701DD /* ViewPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPhotosView.swift; sourceTree = "<group>"; };
+		A7DC9AB32CF6498100F701DD /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		A7DC9ABB2CF64ECB00F701DD /* ViewPhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPhotosViewModel.swift; sourceTree = "<group>"; };
+		A7DC9ABD2CF64EE800F701DD /* FullImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageView.swift; sourceTree = "<group>"; };
+		A7DC9AC02CF64F8300F701DD /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		A7DC9AC22CF67BC100F701DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Digmi/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7DC9A6B2CF6304A00F701DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DC9AB02CF6488100F701DD /* SDWebImageSwiftUI in Frameworks */,
+				A7DC9A9E2CF642F800F701DD /* FirebaseCore in Frameworks */,
+				A7DC9AA22CF6434E00F701DD /* FirebaseFirestore in Frameworks */,
+				A7DC9AA82CF6469400F701DD /* FirebaseDatabase in Frameworks */,
+				A7DC9AA42CF6435200F701DD /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DC9A7B2CF6304B00F701DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DC9A852CF6304B00F701DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7DC9A652CF6304A00F701DD = {
+			isa = PBXGroup;
+			children = (
+				A7DC9A702CF6304A00F701DD /* Digmi */,
+				A7DC9A812CF6304B00F701DD /* DigmiTests */,
+				A7DC9A8B2CF6304B00F701DD /* DigmiUITests */,
+				A7DC9A6F2CF6304A00F701DD /* Products */,
+				A7DC9A9C2CF642F800F701DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7DC9A6F2CF6304A00F701DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9A6E2CF6304A00F701DD /* Digmi.app */,
+				A7DC9A7E2CF6304B00F701DD /* DigmiTests.xctest */,
+				A7DC9A882CF6304B00F701DD /* DigmiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DC9A702CF6304A00F701DD /* Digmi */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9AB72CF64A9300F701DD /* App */,
+				A7DC9ABF2CF64F7300F701DD /* Model */,
+				A7DC9AB12CF6496C00F701DD /* View */,
+				A7DC9AA92CF6479600F701DD /* ViewModel */,
+				A7DC9AB62CF64A4300F701DD /* Resources */,
+				A7DC9A772CF6304B00F701DD /* Preview Content */,
+			);
+			path = Digmi;
+			sourceTree = "<group>";
+		};
+		A7DC9A772CF6304B00F701DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9A782CF6304B00F701DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7DC9A812CF6304B00F701DD /* DigmiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9A822CF6304B00F701DD /* DigmiTests.swift */,
+			);
+			path = DigmiTests;
+			sourceTree = "<group>";
+		};
+		A7DC9A8B2CF6304B00F701DD /* DigmiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9A8C2CF6304B00F701DD /* DigmiUITests.swift */,
+				A7DC9A8E2CF6304B00F701DD /* DigmiUITestsLaunchTests.swift */,
+			);
+			path = DigmiUITests;
+			sourceTree = "<group>";
+		};
+		A7DC9A9C2CF642F800F701DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7DC9AA92CF6479600F701DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9A9F2CF6431F00F701DD /* PhotoViewModel.swift */,
+				A7DC9ABB2CF64ECB00F701DD /* ViewPhotosViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A7DC9AB12CF6496C00F701DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9AB22CF6497400F701DD /* AddPhoto */,
+				A7DC9AB52CF64A0400F701DD /* ViewPhotos */,
+				A7DC9AAA2CF647A200F701DD /* TabBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7DC9AB22CF6497400F701DD /* AddPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9AB32CF6498100F701DD /* AddPhotoView.swift */,
+				A7DC9A732CF6304A00F701DD /* ImagePickerView.swift */,
+			);
+			path = AddPhoto;
+			sourceTree = "<group>";
+		};
+		A7DC9AB52CF64A0400F701DD /* ViewPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9AAC2CF647B100F701DD /* ViewPhotosView.swift */,
+				A7DC9ABD2CF64EE800F701DD /* FullImageView.swift */,
+			);
+			path = ViewPhotos;
+			sourceTree = "<group>";
+		};
+		A7DC9AB62CF64A4300F701DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9A752CF6304B00F701DD /* Assets.xcassets */,
+				A7DC9AA52CF6453F00F701DD /* GoogleService-Info.plist */,
+				A7DC9AC22CF67BC100F701DD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7DC9AB72CF64A9300F701DD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9A712CF6304A00F701DD /* DigmiApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A7DC9ABF2CF64F7300F701DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC9AC02CF64F8300F701DD /* ImageItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7DC9A6D2CF6304A00F701DD /* Digmi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DC9A922CF6304B00F701DD /* Build configuration list for PBXNativeTarget "Digmi" */;
+			buildPhases = (
+				A7DC9A6A2CF6304A00F701DD /* Sources */,
+				A7DC9A6B2CF6304A00F701DD /* Frameworks */,
+				A7DC9A6C2CF6304A00F701DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Digmi;
+			packageProductDependencies = (
+				A7DC9A9D2CF642F800F701DD /* FirebaseCore */,
+				A7DC9AA12CF6434E00F701DD /* FirebaseFirestore */,
+				A7DC9AA32CF6435200F701DD /* FirebaseStorage */,
+				A7DC9AA72CF6469400F701DD /* FirebaseDatabase */,
+				A7DC9AAF2CF6488100F701DD /* SDWebImageSwiftUI */,
+			);
+			productName = Digmi;
+			productReference = A7DC9A6E2CF6304A00F701DD /* Digmi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7DC9A7D2CF6304B00F701DD /* DigmiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DC9A952CF6304B00F701DD /* Build configuration list for PBXNativeTarget "DigmiTests" */;
+			buildPhases = (
+				A7DC9A7A2CF6304B00F701DD /* Sources */,
+				A7DC9A7B2CF6304B00F701DD /* Frameworks */,
+				A7DC9A7C2CF6304B00F701DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DC9A802CF6304B00F701DD /* PBXTargetDependency */,
+			);
+			name = DigmiTests;
+			productName = DigmiTests;
+			productReference = A7DC9A7E2CF6304B00F701DD /* DigmiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7DC9A872CF6304B00F701DD /* DigmiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DC9A982CF6304B00F701DD /* Build configuration list for PBXNativeTarget "DigmiUITests" */;
+			buildPhases = (
+				A7DC9A842CF6304B00F701DD /* Sources */,
+				A7DC9A852CF6304B00F701DD /* Frameworks */,
+				A7DC9A862CF6304B00F701DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DC9A8A2CF6304B00F701DD /* PBXTargetDependency */,
+			);
+			name = DigmiUITests;
+			productName = DigmiUITests;
+			productReference = A7DC9A882CF6304B00F701DD /* DigmiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7DC9A662CF6304A00F701DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A7DC9A6D2CF6304A00F701DD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A7DC9A7D2CF6304B00F701DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A7DC9A6D2CF6304A00F701DD;
+					};
+					A7DC9A872CF6304B00F701DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A7DC9A6D2CF6304A00F701DD;
+					};
+				};
+			};
+			buildConfigurationList = A7DC9A692CF6304A00F701DD /* Build configuration list for PBXProject "Digmi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7DC9A652CF6304A00F701DD;
+			packageReferences = (
+				A7DC9A9B2CF639CD00F701DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A7DC9AAE2CF6487200F701DD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = A7DC9A6F2CF6304A00F701DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7DC9A6D2CF6304A00F701DD /* Digmi */,
+				A7DC9A7D2CF6304B00F701DD /* DigmiTests */,
+				A7DC9A872CF6304B00F701DD /* DigmiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7DC9A6C2CF6304A00F701DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DC9A792CF6304B00F701DD /* Preview Assets.xcassets in Resources */,
+				A7DC9A762CF6304B00F701DD /* Assets.xcassets in Resources */,
+				A7DC9AA62CF6453F00F701DD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DC9A7C2CF6304B00F701DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DC9A862CF6304B00F701DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7DC9A6A2CF6304A00F701DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DC9A742CF6304A00F701DD /* ImagePickerView.swift in Sources */,
+				A7DC9AC12CF64F8300F701DD /* ImageItem.swift in Sources */,
+				A7DC9AB42CF6498100F701DD /* AddPhotoView.swift in Sources */,
+				A7DC9AAB2CF647A200F701DD /* TabBarView.swift in Sources */,
+				A7DC9AAD2CF647B100F701DD /* ViewPhotosView.swift in Sources */,
+				A7DC9AA02CF6431F00F701DD /* PhotoViewModel.swift in Sources */,
+				A7DC9ABC2CF64ECB00F701DD /* ViewPhotosViewModel.swift in Sources */,
+				A7DC9A722CF6304A00F701DD /* DigmiApp.swift in Sources */,
+				A7DC9ABE2CF64EE800F701DD /* FullImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DC9A7A2CF6304B00F701DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DC9A832CF6304B00F701DD /* DigmiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DC9A842CF6304B00F701DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DC9A8D2CF6304B00F701DD /* DigmiUITests.swift in Sources */,
+				A7DC9A8F2CF6304B00F701DD /* DigmiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7DC9A802CF6304B00F701DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DC9A6D2CF6304A00F701DD /* Digmi */;
+			targetProxy = A7DC9A7F2CF6304B00F701DD /* PBXContainerItemProxy */;
+		};
+		A7DC9A8A2CF6304B00F701DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DC9A6D2CF6304A00F701DD /* Digmi */;
+			targetProxy = A7DC9A892CF6304B00F701DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7DC9A902CF6304B00F701DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7DC9A912CF6304B00F701DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7DC9A932CF6304B00F701DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Digmi/Preview Content\"";
+				DEVELOPMENT_TEAM = DL8F67A77K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Digmi/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Digmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7DC9A942CF6304B00F701DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Digmi/Preview Content\"";
+				DEVELOPMENT_TEAM = DL8F67A77K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Digmi/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Digmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7DC9A962CF6304B00F701DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL8F67A77K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DigmiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digmi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Digmi";
+			};
+			name = Debug;
+		};
+		A7DC9A972CF6304B00F701DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL8F67A77K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DigmiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digmi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Digmi";
+			};
+			name = Release;
+		};
+		A7DC9A992CF6304B00F701DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL8F67A77K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DigmiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Digmi;
+			};
+			name = Debug;
+		};
+		A7DC9A9A2CF6304B00F701DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL8F67A77K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DigmiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Digmi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7DC9A692CF6304A00F701DD /* Build configuration list for PBXProject "Digmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DC9A902CF6304B00F701DD /* Debug */,
+				A7DC9A912CF6304B00F701DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DC9A922CF6304B00F701DD /* Build configuration list for PBXNativeTarget "Digmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DC9A932CF6304B00F701DD /* Debug */,
+				A7DC9A942CF6304B00F701DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DC9A952CF6304B00F701DD /* Build configuration list for PBXNativeTarget "DigmiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DC9A962CF6304B00F701DD /* Debug */,
+				A7DC9A972CF6304B00F701DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DC9A982CF6304B00F701DD /* Build configuration list for PBXNativeTarget "DigmiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DC9A992CF6304B00F701DD /* Debug */,
+				A7DC9A9A2CF6304B00F701DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7DC9A9B2CF639CD00F701DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.5.0;
+			};
+		};
+		A7DC9AAE2CF6487200F701DD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7DC9A9D2CF642F800F701DD /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7DC9A9B2CF639CD00F701DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A7DC9AA12CF6434E00F701DD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7DC9A9B2CF639CD00F701DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A7DC9AA32CF6435200F701DD /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7DC9A9B2CF639CD00F701DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A7DC9AA72CF6469400F701DD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7DC9A9B2CF639CD00F701DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		A7DC9AAF2CF6488100F701DD /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7DC9AAE2CF6487200F701DD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A7DC9A662CF6304A00F701DD /* Project object */;
+}
