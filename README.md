@@ -9,6 +9,12 @@ Sample Screenshots :
 
 <img src="https://github.com/user-attachments/assets/7c19e761-9686-4b67-bc73-6a7f99942cc9" width="200">
 
+## Video Demo
+
+Watch the video demo of the app in action:
+
+[![Video Title](https://github.com/user-attachments/assets/7c19e761-9686-4b67-bc73-6a7f99942cc9)](https://github.com/user-attachments/assets/7c19e761-9686-4b67-bc73-6a7f99942cc9)
+
 
 
 
