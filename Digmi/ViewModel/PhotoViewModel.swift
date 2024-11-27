@@ -16,10 +16,12 @@ class PhotoViewModel: ObservableObject {
     private let storageRef = Storage.storage().reference()
     private let databaseRef = Database.database().reference()
 
+    // Function to clear the selected image (for resetting the image picker or cancelling)
     func clearImage() {
         selectedImage = nil
     }
 
+    // Function to upload the selected image to Firebase Storage
     func uploadImage(completion: @escaping (Bool) -> Void) {
         guard let image = selectedImage,
               let imageData = image.jpegData(compressionQuality: 0.8) else {
@@ -61,6 +63,7 @@ class PhotoViewModel: ObservableObject {
         }
     }
 
+    // Function to save the image URL to Firebase Realtime Database
     private func saveImageURL(_ url: String, completion: @escaping (Bool) -> Void) {
         databaseRef.child("images").childByAutoId().setValue(url) { error, _ in
             if let error = error {

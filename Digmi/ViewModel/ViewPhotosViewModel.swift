@@ -14,6 +14,8 @@ class ViewPhotosViewModel: ObservableObject {
     private let databaseRef = Database.database().reference()
 
     func fetchImageURLs() {
+        // Listening to changes in the "images" node of the Firebase database
+        
         databaseRef.child("images").observe(.value) { snapshot in
             var urls: [String] = []
             for child in snapshot.children {
@@ -22,6 +24,8 @@ class ViewPhotosViewModel: ObservableObject {
                     urls.append(url)
                 }
             }
+            
+            // Update the published imageURLs array on the main thread (for UI updates)
             DispatchQueue.main.async {
                 self.imageURLs = urls
             }
