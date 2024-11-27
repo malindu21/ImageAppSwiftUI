@@ -2,10 +2,11 @@ iOS Photo Upload and Display App with Firebase
 
 Sample Screenshots :
 
-<img src="https://github.com/user-attachments/assets/2b9ae8df-1349-481c-be06-51d4c277f419" width="200">
-<img src="https://github.com/user-attachments/assets/ebe2d909-3c97-4512-94d1-d0d371724654" width="200">
 <img src="https://github.com/user-attachments/assets/f7c12fe0-dc31-4a9b-ba55-dc28df8bd201" width="200">
 <img src="https://github.com/user-attachments/assets/dd1f4a01-8677-4379-9a88-b219a4680bd5" width="200">
+<img src="https://github.com/user-attachments/assets/443135f8-04b6-40db-ba6d-f088c0bcec89" width="200">
+<img src="https://github.com/user-attachments/assets/ebe2d909-3c97-4512-94d1-d0d371724654" width="200">
+
 
 Photo Upload: Users can take a new photo or select an existing photo from their device. The photo is then uploaded to Firebase Storage.
 Display Uploaded Photos: The app fetches and displays the uploaded images from Firebase Firestore, showing the list of photo URLs.
