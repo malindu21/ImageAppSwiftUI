@@ -97,7 +97,8 @@ struct AddPhotoView: View {
                 }) {
                     HStack {
                         if viewModel.isUploading {
-                            ProgressView()
+                            Text("Uploading Image...")
+                                .bold()
                                 .padding()
                         } else {
                             Text("Upload Image")
@@ -106,8 +107,8 @@ struct AddPhotoView: View {
                         }
                     }
                     .frame(maxWidth: .infinity)
-                    .background(Color.purple)
-                    .foregroundColor(.white)
+                    .background(!viewModel.isUploading ? Color.purple : Color.gray.opacity(0.5))
+                    .foregroundColor(!viewModel.isUploading ? Color.white : Color.black.opacity(0.5))
                     .cornerRadius(12)
                     .shadow(radius: 10)
                     .padding(.top, 20) // Add top padding to create space from the buttons

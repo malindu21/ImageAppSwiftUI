@@ -19,6 +19,7 @@ class PhotoViewModel: ObservableObject {
     // Function to clear the selected image (for resetting the image picker or cancelling)
     func clearImage() {
         selectedImage = nil
+        isUploading = false
     }
 
     // Function to upload the selected image to Firebase Storage
