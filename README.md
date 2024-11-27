@@ -22,12 +22,10 @@ Display Uploaded Photos: The app fetches and displays the uploaded images from F
 
 ## Tools & Technologies
 
-SwiftUI: For building the user interface.
+Swift UI 
 
-Firebase: Used for storing images in Firebase Firestore and Firebase Storage.
+Firebase realtime database
 
-Firebase Firestore: For storing metadata about the uploaded photos.
+Firebase Firestorage
 
-Firebase Storage: For storing the actual images.
-
-MVVM Design Pattern: To maintain a clean code structure.
+MVVM Design Pattern
