@@ -5,13 +5,10 @@ Display Uploaded Photos: The app fetches and displays the uploaded images from F
 
 ## Tools & Technologies
 
-Swift UI 
-
-Firebase realtime database
-
-Firebase Firestorage
-
-MVVM Design Pattern
+- **SwiftUI**: For building the user interface in a declarative and easy-to-manage way.
+- **Firebase Realtime Database**: Used for storing and syncing data in real-time across all clients.
+- **Firebase FiresStorage**: For storing images.
+- **MVVM Design Pattern**: To ensure a clean, organized, and maintainable codebase.
 
 ## Sample Screenshots :
 
