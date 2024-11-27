@@ -7,10 +7,11 @@ Sample Screenshots :
 <img src="https://github.com/user-attachments/assets/c160d037-eff2-410e-9d0a-35622c886227" width="200">
 <img src="https://github.com/user-attachments/assets/ebe2d909-3c97-4512-94d1-d0d371724654" width="200">
 
+<img src="https://github.com/user-attachments/assets/7c19e761-9686-4b67-bc73-6a7f99942cc9" width="200">
 
-![Image]()
-![Image (1)](https://github.com/user-attachments/assets/443135f8-04b6-40db-ba6d-f088c0bcec89)
-![Image (2)](https://github.com/user-attachments/assets/c5db7af5-2e9c-4a4f-a448-69822ef1ac1b)
+
+
+
 
 Photo Upload: Users can take a new photo or select an existing photo from their device. The photo is then uploaded to Firebase Storage.
 Display Uploaded Photos: The app fetches and displays the uploaded images from Firebase Firestore, showing the list of photo URLs.
