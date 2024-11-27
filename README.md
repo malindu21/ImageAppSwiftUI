@@ -1,15 +1,13 @@
 iOS Photo Upload and Display App with Firebase
 
-Sample Screenshots :
+## Sample Screenshots :
 
 <img src="https://github.com/user-attachments/assets/f7c12fe0-dc31-4a9b-ba55-dc28df8bd201" width="200">
 <img src="https://github.com/user-attachments/assets/dd1f4a01-8677-4379-9a88-b219a4680bd5" width="200">
 <img src="https://github.com/user-attachments/assets/c160d037-eff2-410e-9d0a-35622c886227" width="200">
 <img src="https://github.com/user-attachments/assets/ebe2d909-3c97-4512-94d1-d0d371724654" width="200">
 
-<img src="https://github.com/user-attachments/assets/7c19e761-9686-4b67-bc73-6a7f99942cc9" width="200">
-
-## Video Demo
+## Video Demo :
 
 Watch the video demo of the app in action:
 
